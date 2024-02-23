@@ -9,7 +9,7 @@ public class RecCalc {
         width = sc.nextDouble();
         area = height * width;
         perimeter = 2 * (height + width);
-        System.out.printf("Area of rectangle: %.2f\n", area);
+        System.out.printf("Area of rectangle: %.2f\n", area); // output in two decimal places
         System.out.printf("Perimeter of rectangle: %.2f\n", perimeter);
     }
 

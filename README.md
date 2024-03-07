@@ -26,6 +26,16 @@ This repository is an online backup for my lab exersises in 2024 spring CS109 co
     <tr>
         <td>Sum up all numbers inputted</td>
     </tr>
+    <tr>
+        <td rowspan="3">Lab 03</td>
+        <td>Leap Year (Review)</td>
+    </tr>
+    <tr>
+        <td>GPA</td>
+    </tr>
+    <tr>
+        <td>JiuJiu Table</td>
+    </tr>
 </table>
 
 <!--This is an end-->

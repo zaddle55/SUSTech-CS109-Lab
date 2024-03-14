@@ -7,11 +7,13 @@ This repository is an online backup for my lab exersises in 2024 spring CS109 co
 <!--Lab Title-->
 
 <table>
+    <!--This is head-->
     <tr>
         <td>Number</td>
         <td>Topic</td>
         <td>Points</td>
     </tr>
+    <!--This is content-->
     <tr>
         <td rowspan="2">Lab 01</td>
         <td>Calculation about Rectangle</td>
@@ -35,6 +37,19 @@ This repository is an online backup for my lab exersises in 2024 spring CS109 co
     </tr>
     <tr>
         <td>JiuJiu Table</td>
+    </tr>
+    <tr>
+        <td rowspan="4">Lab 04</td>
+        <td>Print grade table</td>
+    </tr>
+    <tr>
+        <td>Convention on myList</td>
+    </tr>
+    <tr>
+        <td>*Count times of numbers showing up</td>
+    </tr>
+    <tr>
+        <td>*How many blocks of water can be reserved?</td>
     </tr>
 </table>
 

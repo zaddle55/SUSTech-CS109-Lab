@@ -1,22 +1,24 @@
 import java.util.Scanner;
+
 public class CountTimes {
+    // main function
     public static void main(String[] args) {
-        int i = 0;
+        int i = 1; // ignore the existence of 0
         int[] arr = new int[1024];
         input(arr);
-        int[] ref = new int[101];
-        while(i < arr.length){
-            ref[arr[i]]++;
-            i++;
+        int[] freq = new int[101]; // define an array to store the frequency of each element(1~100)
+        for (int j = 0; j < arr.length; j++){
+            freq[arr[j]]++; // count the frequency of each element and store it in ref
         }
-        i = 1;
         while(i < 101){
-            if (ref[i] != 0){
-                System.out.printf("%d occurs %d times\n", i, ref[i]);
+            if (freq[i] != 0){ // ignore the element with frequency 0
+                System.out.printf("%d occurs %d times\n", i, freq[i]);
             }
             i++;
         }
     }
+
+    // input function
     public static void input(int[] arr){
         int temp, i = 0;
         Scanner sc = new Scanner(System.in);

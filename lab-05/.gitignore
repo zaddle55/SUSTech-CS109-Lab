@@ -1,5 +1,5 @@
 lib
-bin/
-.vscode
+bin/ 
+.vscode/
 README.md
 src/App.java

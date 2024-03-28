@@ -51,6 +51,29 @@ This repository is an online backup for my lab exersises in 2024 spring CS109 co
     <tr>
         <td>*How many blocks of water can be reserved?</td>
     </tr>
+        <tr>
+        <td rowspan="4">Lab 05</td>
+        <td>Print grade table</td>
+    </tr>
+    <tr>
+        <td>Convention on myList</td>
+    </tr>
+    <tr>
+        <td>*Count times of numbers showing up</td>
+    </tr>
+    <tr>
+        <td>*How many blocks of water can be reserved?</td>
+    </tr>
+        <tr>
+        <td rowspan="3">Lab 06</td>
+        <td>User Class</td>
+    </tr>
+    <tr>
+        <td>UserTest</td>
+    </tr>
+    <tr>
+        <td>UserManage</td>
+    </tr>
 </table>
 
 <!--This is an end-->
